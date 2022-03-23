@@ -19,13 +19,4 @@ public class PersegiPanjang implements MenghitungBidang {
     public double hitungKeliling() {
         return 2 * (this.p + this.l);
     }
-
-    public double hitungLuas(double x, double y) {
-        return x * y;
-    }
-
-    public double hitungKeliling(double x, double y) {
-        return 2 * (x + y);
-    }
-
 }
